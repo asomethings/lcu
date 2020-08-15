@@ -1,0 +1,14 @@
+{
+  "extension": [
+    ".js"
+  ],
+  "report-dir": "./coverage",
+
+  "temp-dir": "./.nyc_output",
+  "check-coverage": true,
+  "lines": 10,
+  "functions": 10,
+  "branches": 10,
+  "reporter": ["lcov", "html", "text"]
+
+}
